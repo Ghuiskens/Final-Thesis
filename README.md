@@ -1,2 +1,2 @@
 # Draft-Thesis
-Current finished codes for the thesis draft.
+Currently finished codes for the thesis draft.
