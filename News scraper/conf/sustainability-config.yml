@@ -1,0 +1,67 @@
+threads: 12
+state_path: "C:/Users/ghuiskens/Thesis/scraperState"
+output_path: "C:/Users/ghuiskens/Thesis/scraped"
+log_level: "INFO"
+persist_processed_urls: true
+source_rate_limit: 50
+scrape_rate_limit: 100
+
+sources:
+  - name: "gdelt"
+    enabled: true
+    type: "rss"
+    url: "https://api.gdeltproject.org/api/v2/doc/doc?query=%s+sourcelang:eng&mode=artlist&maxrecords=250&format=rss&startdatetime=%s&enddatetime=%s"
+    url_path: "link"
+    period_weeks: 1
+    num_periods: 256
+    date_format: "20060102150405"
+    scrape: true
+    
+    #Terms that need to be in a news article for them to be retained in the output
+    scrape_required_terms:
+    
+    #Terms that are used to scrape articles, in this case the producers of chocolate confectionary
+    terms_list:
+      - 'alfred ritter'
+      - 'ashbury chocolates'
+      - 'august storck'
+      - 'belchic'
+      - 'bio+'
+      - 'bip'
+      - 'chocosweet'
+      - 'cloetta'
+      - 'confina'
+      - 'copar'
+      - 'droste'
+      - 'elvee'
+      - 'hamlet'
+      - 'hands off'
+      - 'hosta'
+      - 'johnny doodle'
+      - 'les chevaliers'
+      - 'lindt spruengli'
+      - 'lotus bakeries'
+      - 'krüger group'
+      - 'mars'
+      - 'mondelez'
+      - 'natra onati'
+      - 'nestle'
+      - 'pladis'
+      - 'plus'
+      - 'sweet products'
+      - 'the belgian chocolate group'
+      - "tony's chocolonely"
+      - 'albert heijn'
+      - 'biteswelove'
+      - 'chef du chocolat'
+      - 'de graaf bakeries'
+      - 'ecofinia'
+      - 'ferrero'
+      - 'haribo'
+      - 'maitre mathis'
+      - 'nutrition et santé'
+      - 'ravelli chocolatier'
+      - 'lindt & sprüngli'
+      - 'mondelēz'
+      - 'nestlé'
+      - 'bio plus'
