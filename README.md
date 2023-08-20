@@ -19,3 +19,6 @@ News classification
 
 News sentiments
 - Gdelt data input (Input data file)
+- mondelez_sentiment-truth (manually checked ground truth so that it only had to be done once)
+- mondelez_sentiment-truth (manually checked ground truth so that it only had to be done once)
+- sustainability news aritcle setniment analysis (complete Jupiter noteboo)
