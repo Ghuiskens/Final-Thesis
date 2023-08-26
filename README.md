@@ -14,11 +14,11 @@ News scraper
 News classification
 - gdelt_nestle_truth (manually checked ground truth so that it had to be done once)
 - gdelt_mondelez_truth (manually checked ground truth so that it had to be done once)
-- Sustainability news article classification code (Complete classifcation Jupyter notebook)
-- Gdelt_classification_file (Output of the classification and Input for recommender)
+- Sustainability news article classification code (Complete classification Jupyter notebook)
+- Gdelt_classification_input_recommender (Output of the classification and Input for recommender system)
 
 News sentiments
-- Gdelt data input (Input data file)
+- gdelt_datainput_sentiment_calculation (FILE IS NOT UPLOADED DUE TO SIZE, WILL BE PROVIDED SEPERATELY)
+- nestle_sentiment-truth (manually checked ground truth so that it only had to be done once)
 - mondelez_sentiment-truth (manually checked ground truth so that it only had to be done once)
-- mondelez_sentiment-truth (manually checked ground truth so that it only had to be done once)
-- sustainability news aritcle setniment analysis (complete Jupiter noteboo)
+- sustainability news aritcle setniment analysis (complete Jupiter notebook)
