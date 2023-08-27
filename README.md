@@ -21,4 +21,7 @@ News sentiments
 - gdelt_datainput_sentiment_calculation (FILE IS NOT UPLOADED DUE TO SIZE, WILL BE PROVIDED SEPERATELY)
 - nestle_sentiment-truth (manually checked ground truth so that it only had to be done once)
 - mondelez_sentiment-truth (manually checked ground truth so that it only had to be done once)
-- sustainability news aritcle setniment analysis (complete Jupiter notebook)
+- sustainability news aritcle setniment analysis (complete Jupyter notebook)
+
+Final Recommender system
+- The final functioning recommender system (complete jupyter notebook)
